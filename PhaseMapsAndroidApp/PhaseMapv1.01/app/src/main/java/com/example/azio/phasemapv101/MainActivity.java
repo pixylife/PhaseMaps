@@ -143,7 +143,32 @@ public class MainActivity extends AppCompatActivity
 
 
     }
-                protected synchronized void buildGoogleApiClient() {
+
+    @Override
+public void onMapReady(GoogleMap googleMap) {
+    mMap = googleMap;
+
+    //Initialize Google Play Services
+    if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+        if (ContextCompat.checkSelfPermission(this,
+                android.Manifest.permission.ACCESS_FINE_LOCATION)
+                == PackageManager.PERMISSION_GRANTED) {
+            buildGoogleApiClient();
+            mMap.setMyLocationEnabled(true);
+        }
+    } else {
+        buildGoogleApiClient();
+        mMap.setMyLocationEnabled(true);
+    }
+
+
+
+}
+
+
+                
+                
+   protected synchronized void buildGoogleApiClient() {
     mGoogleApiClient = new GoogleApiClient.Builder(this)
             .addConnectionCallbacks(this)
             .addOnConnectionFailedListener(this)
