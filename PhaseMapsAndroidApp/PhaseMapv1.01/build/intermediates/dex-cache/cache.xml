@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\423dc6e0a088fb37f8265d34b18c466387064a88\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a00a25d409187dc37e71b45adae8a2ad6cd48e2b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\320a9c627a5d09e61ccb7325ad924ba7734f9ed9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a6e5fe405e17caf75d2eaca931cb427792012559\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\d12b5131c56d1451d2dd7a7d040c36d87318d283\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c14f0c89f28cf782e42581ab0aba5f63af39b3d2">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b009b89997c15e983881f1569fc03fe406d838f5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\e9692e7d3ebf05657bc1269e816e6bc5fdeefab3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f6c83f6fa656721566b7f136e3e65bd004046232\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\0abe91a79776ce529b81572465b20c00d75855d8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="df1cb17511aabbb63264a0024949d1e42502a512">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a7ffe3a2d739e4ebae1b96f4bdc3ac8698d4f7e2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\fa82771938e72c17bd176caa790c0add86932fa8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5ca2dc8df33c8f5ce9b74f63e4c6a261633a3e61\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\0f5595b85e1044110437e2faaf7498eab97a54c3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0d379dc81ec384a0720816fbceedba4f7865b063\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\753b993dd27b08e8272e214a76cde5dc9fb9ae85\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_da27bc176c001d60f157141bd46b0daa85e5d17a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\080fa3b65ea5963156c85f8d42b6031c483f3862\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="028f8255cb977b29cdffbfcf05caa0459686120c">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_46e7a3a1dfeb0dc9960e4b02814b9147bea13e57\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\faa00148242fa028358cedd0405051384b78f92c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1131ee2bf55c28ec342548aa322ae07497bc678b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\c41273d165823694f31829e8d8a7231e3e824000\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1d193729baf37df3d902a423291423a0df7e3779">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_453dc73be3c13633ebd822047dad91f0b503ad97\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\a50fb3d81bf39cb45aa61139c8809184b79ea1a0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_78f8fd798dcb819b978453a876c59bf5388b3408\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\0e3d3bd15ba7e8352d8fcc0ba71de928f4ba55e2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cd6cd59bcb65922b389fad4240b8d5f8258ace12\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\48bc78dd7c1acaa9973752693fa67de65fd34b7e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8b4549c2480f43362e4bc998dd0883bdbf6e19b6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\865d866632a5a3e1f1f9a0445b01fecce77a16a5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d0eae197501cf62513f0d44300785773fa91c825\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\1be0d90e718971c9fe4e99402a397059eba464a7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6dfcef8ac9585eb70e4aaf3bad100febde1fddc2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\a34e47ff6313f5106360dd90975171de28de5538\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a3c82a52422380d7c439fa826eb858085606479d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\81cb01dec7bad6c08f0d075737aa8f904789078b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5dfc90b0da9acb5bca2b5907a80aee462b79c270\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\0c84827941f9baf77917f24af70c191a9d250944\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9eea45d9354f01e5acc97519a4d0e0aceac9a43c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\763ff2f063ac278eff77c851d7a1d0c25db654ec\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4ef688e5ff6c8c3122c08cc2f5da39ae5c8c0ecc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\78a113171d64caa68f232648df3425ae8daad2e3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4a4ef39ab7767210a25cd1a37e24f5724d63582c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\d6efbef8aceb9a6e15b118f2e9f859540e4fc43c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2ae16be77b918a9aa57079234a1fdad24a0bb903\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\1bc2d9c622aae249f8c3f12847eadb4e43b132c3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e871881b36b32e6bfd271a830c6eeb54ff0fc185">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e327a05509f53a0916ce44266a4a0ed8a6f13ab8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\9de7a9f956430dd0b606d5581d0c04b95baccf1b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f6cf557be4dbd0282ea2388633e5378634423226">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_610f0585ecd8fdc126cbfed0af1f5c6f093bfc79\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\1e5fd4c192d35375bc8c91a6426b3bbaeedb7377\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a5641fd8a40bbe4212fe2216a7ff3076e07ad6b1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\b8fa5177a159f7d220178d040b1d0f6e484496d9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e33377beae2396bd109c237d10f2cc1a6ce1b687\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\b8b24015521997fb1e2003b28d85c9954ddeed22\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b5356d09ad52c703f4dc10ac9b76d74266ddb436\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\72df0fc949122a29c3e1c002297ad793a8773438\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ae80d328a8548b4610ead6c624bab8c6a6984f5b">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c3926352802a048ea43c10b050b5a11117744a92\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\a3b09d7939a018008eb35d078c672e74b71be522\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ba6aa5e69ef31dee57208125323cee958fc67565">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1b08cebfd467b91e9250a5c913a7f3165726831c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\4e082850460b91a944e591deb502ed357203c4e3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4c829ff0ccfecb28a999ee46d9e75948dfc777a4">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_579ded04bce0aa155667db2ede9594ace29ca5df\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="af660fb25813bb4896ce7f37719a9da162c3c1ca">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_dbd830ce743f089f1c6ab6d6b6f29e2cf202ede8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\daa41e2306a5235b0abcd31ce9833c2b937cea90\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45305e6af414dab5aba6c3225081c2f15c3bdd1e">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2b6ba008760248b8f1a080a6e9022ead9f53b069\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\8a99d05456b6f3c3cceec8a68311e248c7fb1ba9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c2cf0691529e2b7a7d4fe97fa507227ab58ddeca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\9d9d61adf32481c60e29ff277f7f9c7650783f8d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="771267c5b0c7a5b348d3205dcfa1f871af7e0177">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_838d0a1609b29089eee0277eacc7fbd5cb0553b0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\4ead18947e6575336e960a7dbf8f701e92738b5a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_856d026d939272d3988627e40f02b72ebf774e96\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\b903aaee82761ea9273229f6b7565fb5ab60127a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a48dc0b148059764d32500be558702d5ff932058">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3eff817009b0d15eef363a0203ae031d3372810e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\551f9972f0e7cef685b51250bd10ac990c6cd1bf\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_80b96eff1d7a669dde9854fa194d8a08a2343f02\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\0676b8c24cc2ae02e6b2deb2a8af88679adc2ead\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9ea7b986855c22c6e4422618f1babcdb9adac350\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\10911298e6d58dc21d293f6384f74a6009b6bf05\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="971509bbe30bb7b971fc1c49d7b23d0d818830ac">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_73db9bfeccaefa573352743961ed96247c68053d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\de9e9e9dea0cde56879eb4dd32e47c0bd63dd195\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_03a9ef1dcba33af58fd4bf2648f47bbb911f25f7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\ca335610d25bef80bcc20929630646c9b56d79f1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_14b56d22a403af342a30c0948abf7b08d4721017\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\7daa2750ffa34f0d52ed6d9acea5bd2072ccfc20\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8f1fb25629f1c5da58263b24c41c374c06fffe63\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\348d78e1a536442f4cacf20e529506154f19f1b0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_58f78b0595a9e2998d3081d74aefa0bc8713d0ae\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\e78ec7536929a4d0c0a885ade9a90e46cf78f64c\output\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_2311eb561a470809167c628ab066fbd962294590\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\c6b4839f3ea3c36af756fb9ab1e34742a3066802\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1902c8c26f6ba7fa60fa8a857dcea8046a8c0de8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\30577d3da109953445881d568246480076ade0e4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="92c871a22463a247e8a77a9f3fd231c278788c4a">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c690d52bc470f26c48b3dde5bbba8478604afcd6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\d1e5c9fa11cfe0ae730985eea3ad6e8af7345738\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3fb6368c1300731c2be20c0e5cdcc95fb1cf9999\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\2bf8092ca76728097d0653e4d4e82ed2298de97d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9a520303366cb9a751670f857e88d57108cb2ff2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\9f2addb977e9fbf7a39fcf21fd842f8a6e959d3f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f89322e15699f31a7223f9f7ec1ab45d2d393f9d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\deb5cd09e76d4a93911eaed0052cb6f08e8c419d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4385ccc0a88b33d182a836eadb47be55c8eb1107">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_eb8e07b6121f50ea46bc7853ad1a4d39c8675e65\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\e78ec7536929a4d0c0a885ade9a90e46cf78f64c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_11bd355b71d69da1584609ac03f2747889ae7feb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\8f710631ae32c3809419d51ea503731ddde66cf8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b5787b2d485568550524914480e8effbccf63d69\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\53447e2ca3fb7a9507425964596678f62781c1d1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f23ad0f8e58713ff4b55f61c0bbde3830378347c">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6e4d94afd18d72d10acfd62f271fbfc96b6b4867\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_f9d4e657b6064ffb12565af434ffd35176336dcb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\0cb5da986c52fbad50eb9321f422bda6a1a08397\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f45967fd1d7423bf9f5a744278369d21903b56e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\b209b3ccb94a12bb4db76c8a6837c8a696e875d8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_934ebe316950d3e9b2a03caee793c398d06742d2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\0b5194d80e5c492f5555d1990851e62719efc2c7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ffc15e965a9e8c28f24455eedd4cac215c45d1fc">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_349ec20c22d94db7ed6f2ed5caa70cc1a3f7fce7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\1dd15c141f6475200f8c9a19c80af452480ed3e9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9e573ac6ca4584d5e28a7369c942387233667c24\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_1c0d64d28cf9ac67baa12de8c4ee0e934a16fd36\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\08f99e3601614192069684bd9664a951a197b754\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6d276e5baf573c2eb47fbdc6069b93ffa9698f05\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\49d706ec8bdd0481755492adf502ffb9b6e7a435\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a0da35c14e2be1add430898a8f55549ef5fa334e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\b0152fe10cc7f640736c85f9bd077cfe36324de7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2d5d113b0352ab60946fc44c518cf68fd26cbb79">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_26f7076151c221f341435082b1a9cf825a900896\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\2709ebe2933a399551a8a3e433bc53e2b724ce2f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_40e6b70ce37c849d9082144120b42896b7da4101\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\2d997f55462da7a4f3c0939db744dc69e1ac0e60\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d2ef1ca7141f27f4813e4546ba629420e7a0546f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\050b269c8dbd5766ac3e93baf99e4198f0cd6060\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_25503865a81e5ac2708e0e7904c80d4b08377846\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\b6c2d66ab4cf7ae3aab1f88dc74ed816cae69bf9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="C:\Users\User\Desktop\Android\PhaseMapv1.01\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d6c77579a0c95e262c10698770f2b0b6656c9862\classes.dex" />
+    </item>
+
+</items>
