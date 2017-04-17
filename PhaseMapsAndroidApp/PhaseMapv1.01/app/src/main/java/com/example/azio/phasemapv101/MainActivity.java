@@ -143,5 +143,52 @@ public class MainActivity extends AppCompatActivity
 
 
     }
+                protected synchronized void buildGoogleApiClient() {
+    mGoogleApiClient = new GoogleApiClient.Builder(this)
+            .addConnectionCallbacks(this)
+            .addOnConnectionFailedListener(this)
+            .addApi(LocationServices.API)
+            .build();
+    mGoogleApiClient.connect();
+}
+
+
+@Override
+public void onConnected(@Nullable Bundle bundle) {
+
+    mLocationRequest = new LocationRequest();
+    mLocationRequest.setInterval(1000);
+    mLocationRequest.setFastestInterval(1000);
+    mLocationRequest.setPriority(LocationRequest.PRIORITY_BALANCED_POWER_ACCURACY);
+    if (ContextCompat.checkSelfPermission(this,
+            android.Manifest.permission.ACCESS_FINE_LOCATION)
+            == PackageManager.PERMISSION_GRANTED) {
+        LocationServices.FusedLocationApi.requestLocationUpdates(mGoogleApiClient, mLocationRequest, this);
+    }
+}
+
+ 
+@Override
+public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
+
+}
+
+@Override
+public void onLocationChanged(Location location) {
+    mLastLocation = location;
+
+    LatLng latLng = new LatLng(location.getLatitude(), location.getLongitude());
+
+    //move map camera
+    mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
+
+    mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
+
+    //stop location updates
+    if (mGoogleApiClient != null) {
+        LocationServices.FusedLocationApi.removeLocationUpdates(mGoogleApiClient, this);
+    }
+}
+
 
 }
