@@ -40,3 +40,58 @@ void sendData(String command, const int timeout, boolean debug){
       SubmitHttpRequest("Lattitude: " + lat + " Longitude: " + lang);
     }    
 }
+
+void SubmitHttpRequest(String message)
+{
+  mySerial.println("AT+CSQ");
+  delay(100);
+
+  ShowSerialData();
+
+  mySerial.println("AT+CGATT?");
+  delay(100);
+
+  ShowSerialData();
+
+  mySerial.println("AT+SAPBR=3,1,\"CONTYPE\",\"GPRS\"");//setting the SAPBR, the connection type is using gprs
+  delay(1000);
+
+  ShowSerialData();
+
+  mySerial.println("AT+SAPBR=3,1,\"APN\",\"dialogbb\"");//setting the APN
+  delay(4000);
+
+  ShowSerialData();
+
+  mySerial.println("AT+SAPBR=1,1");//setting the SAPBR
+  delay(5000);
+
+  ShowSerialData();
+
+  mySerial.println("AT+HTTPINIT"); //init the HTTP request
+
+  delay(3000);
+  ShowSerialData();
+
+  mySerial.println("AT+HTTPPARA=\"URL\",\"54.202.143.34:8080/PhaseMapsWebService/webresources/device/config\"");// setting the httppara
+  delay(3000);
+
+  ShowSerialData();
+
+  mySerial.println("AT+HTTPACTION=0");//submit the request
+  delay(10000);//the delay is very important, the delay time is base on the return from the website, if the return datas are very large, the time required longer.
+  //while(!mySerial.available());
+
+  ShowSerialData();
+
+  ShowSerialData();
+
+  mySerial.println("");
+  delay(100);
+}
+
+void ShowSerialData()
+{
+  while (mySerial.available() != 0)
+    Serial.write(mySerial.read());
+}
