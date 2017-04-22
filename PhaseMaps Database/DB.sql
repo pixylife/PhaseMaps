@@ -68,3 +68,29 @@ CREATE TABLE IF NOT EXISTS `phaseMaps`.`TravelLog` (
     ON DELETE CASCADE
     ON UPDATE CASCADE)
 ENGINE = InnoDB;
+
+CREATE TABLE IF NOT EXISTS `phaseMaps`.`Advertiser` (
+  `idadvertiser` INT NOT NULL,
+  `name` VARCHAR(100) NULL,
+  `email` VARCHAR(100) NULL,
+  `contactNo` VARCHAR(15) NULL,
+  `address` VARCHAR(200) NULL,
+  `company` VARCHAR(150) NULL,
+  `password` VARCHAR(45) NULL,
+  PRIMARY KEY (`idadvertiser`))
+ENGINE = InnoDB;
+
+
+CREATE TABLE IF NOT EXISTS `phaseMaps`.`Beacon` (
+  `idBeacon` INT NOT NULL,
+  `subject` VARCHAR(100) NULL,
+  `description` VARCHAR(200) NULL,
+  `Advertiser_idadvertiser` INT NOT NULL,
+  PRIMARY KEY (`idBeacon`),
+  INDEX `fk_Beacon_Advertiser1_idx` (`Advertiser_idadvertiser` ASC),
+  CONSTRAINT `fk_Beacon_Advertiser1`
+    FOREIGN KEY (`Advertiser_idadvertiser`)
+    REFERENCES `phaseMaps`.`Advertiser` (`idadvertiser`)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
+ENGINE = InnoDB;
