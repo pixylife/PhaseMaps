@@ -29,6 +29,11 @@ public class ApplicationConfig extends Application {
      * If required, comment out calling this method in getClasses().
      */
     private void addRestResourceClasses(Set<Class<?>> resources) {
+        resources.add(com.technobratz.phasemaps.database.entity.service.AdvertiserFacadeREST.class);
+        resources.add(com.technobratz.phasemaps.database.entity.service.BeaconFacadeREST.class);
+        resources.add(com.technobratz.phasemaps.database.entity.service.FavouriteplaceFacadeREST.class);
+        resources.add(com.technobratz.phasemaps.database.entity.service.LocationFacadeREST.class);
+        resources.add(com.technobratz.phasemaps.database.entity.service.ReveiwFacadeREST.class);
         resources.add(com.technobratz.phasemaps.database.entity.service.TravellogFacadeREST.class);
         resources.add(com.technobratz.phasemaps.database.entity.service.UserFacadeREST.class);
     }
