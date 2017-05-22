@@ -20,16 +20,16 @@
             android:text="Your Location"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:id="@+id/button2"
+            android:id="@+id/userLocation"
             android:background="#fff"/>
 
         <Button
             android:text="Choose Destination"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:layout_below="@+id/button2"
-            android:layout_alignLeft="@+id/button2"
-            android:layout_alignStart="@+id/button2"
+            android:layout_below="@+id/userLocation"
+            android:layout_alignLeft="@+id/userLocation"
+            android:layout_alignStart="@+id/userLocation"
             android:id="@+id/button3"
             android:background="#fff"/>
 
