@@ -2,63 +2,71 @@ package com.phasemaps.azio.phasemapsbeacon;
 
 import android.app.Dialog;
 import android.app.ProgressDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Looper;
 import android.support.design.widget.FloatingActionButton;
-import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.gson.Gson;
 import com.phasemaps.azio.phasemapsbeacon.model.Advertiser;
+import com.phasemaps.azio.phasemapsbeacon.model.Beacon;
 import com.phasemaps.azio.phasemapsbeacon.res.HTTPConnection;
 
-import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
-import java.net.ProtocolException;
 import java.net.URL;
 
-public class LoginActivity extends AppCompatActivity {
+public class ViewBeaconActivity extends AppCompatActivity {
     private ProgressDialog pDialog;
     public static final int progress_bar_type = 0;
-
+    private Advertiser advertiser;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_view_beacon);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        Intent intent = getIntent();
+        advertiser = (Advertiser) intent.getSerializableExtra("advertiser");
+        String id= intent.getStringExtra("id");
+        TextView txtId = (TextView) findViewById(R.id.viewIdtextView);
+        txtId.setText(id);
+        setTitle("View Beacon");
+        String[] ar = {id};
+        new ViewBeacon().execute(ar);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(view.getContext(), RegisterActivity.class);
-                startActivity(intent);
+                TextView txtId = (TextView) findViewById(R.id.viewIdtextView);
+                TextView sub = (TextView) findViewById(R.id.viewSubjecttextView);
+                TextView desc = (TextView) findViewById(R.id.viewDesctextView);
+
+
+                Intent i = new Intent(ViewBeaconActivity.this, UpdateBeaconActivity.class);
+                i.putExtra("advertiser", advertiser);
+                i.putExtra("id",txtId.getText().toString());
+                i.putExtra("subject",sub.getText().toString());
+                i.putExtra("description",desc.getText().toString());
+
+                startActivity(i);
             }
         });
-    }
 
-    public void signIn(View view) {
-        TextView email = (TextView) findViewById(R.id.txtLogInEmail);
-        TextView password = (TextView) findViewById(R.id.txtLogInPassword);
-        String[] ar = {email.getText().toString(), password.getText().toString()};
-        new Login().execute(ar);
-    }
 
+
+    }
     protected Dialog onCreateDialog(int id) {
         switch (id) {
             case progress_bar_type:
@@ -75,8 +83,7 @@ public class LoginActivity extends AppCompatActivity {
         }
     }
 
-    private class Login extends AsyncTask<String, Void, String> {
-
+    private class ViewBeacon extends AsyncTask<String, Void, Beacon> {
 
         @Override
         protected void onPreExecute() {
@@ -85,13 +92,13 @@ public class LoginActivity extends AppCompatActivity {
         }
 
         @Override
-        protected String doInBackground(String... params) {
+        protected Beacon doInBackground(String... params) {
             URL url = null;
             StringBuilder sb = new StringBuilder();
-
+            Beacon beacon=new Beacon();
             try {
 
-                url = new URL(new HTTPConnection().getURL() + "advertiser/login");
+                url = new URL(new HTTPConnection().getURL() + "beacon/get");
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestMethod("PUT");
                 conn.setRequestProperty("Content-Type", "application/json");
@@ -99,8 +106,9 @@ public class LoginActivity extends AppCompatActivity {
                 conn.connect();
 
                 JSONObject jsonParam = new JSONObject();
-                jsonParam.put("email", params[0]);
-                jsonParam.put("password", params[1]);
+                jsonParam.put("idBeacon", params[0]);
+
+
 
 
                 OutputStreamWriter wr = new OutputStreamWriter(conn.getOutputStream());
@@ -121,60 +129,16 @@ public class LoginActivity extends AppCompatActivity {
 
 
                     if (!sb.toString().equals("")) {
-                        Gson gson =new Gson();
-                        Advertiser advertiser = gson.fromJson(sb.toString(), Advertiser.class);
-
-                        Intent i = new Intent(LoginActivity.this, MainMenu.class);
-                        i.putExtra("advertiser", advertiser);
-                        startActivity(i);
-                        finish();
-                    } else {
-                        Handler h = new Handler(Looper.getMainLooper());
-                        h.post(new Runnable() {
-                            public void run() {
-                                AlertDialog.Builder builder = new AlertDialog.Builder(LoginActivity.this);
-                                builder.setMessage("Invalid email or password")
-                                        .setCancelable(false)
-                                        .setTitle("Error")
-                                        .setPositiveButton("OK", new DialogInterface.OnClickListener() {
-                                            public void onClick(DialogInterface dialog, int id) {
-
-                                            }
-                                        });
-                                AlertDialog alert = builder.create();
-                                alert.show();
-                            }
-                        });
+                        Gson gson = new Gson();
+                         beacon = gson.fromJson(sb.toString(), Beacon.class);
                     }
                 } else {
-                    Handler h = new Handler(Looper.getMainLooper());
-                    h.post(new Runnable() {
-                        public void run() {
-                            AlertDialog.Builder builder = new AlertDialog.Builder(LoginActivity.this);
-                            builder.setMessage("Invalid email or password")
-                                    .setTitle("Error")
-                                    .setCancelable(false)
-                                    .setPositiveButton("OK", new DialogInterface.OnClickListener() {
-                                        public void onClick(DialogInterface dialog, int id) {
-
-                                        }
-                                    });
-
-                            AlertDialog alert = builder.create();
-                            alert.show();
-                        }
-                    });
-
+                    Toast.makeText(getApplicationContext(), conn.getResponseMessage(), Toast.LENGTH_LONG).show();
                 }
-
-            } catch (ProtocolException e) {
-                e.printStackTrace();
-            } catch (IOException e) {
-                e.printStackTrace();
-            } catch (JSONException e) {
+            } catch (Exception e) {
                 e.printStackTrace();
             }
-            return null;
+            return beacon;
         }
 
         protected void onProgressUpdate(String... progress) {
@@ -187,11 +151,14 @@ public class LoginActivity extends AppCompatActivity {
          * Dismiss the progress dialog
          **/
         @Override
-        protected void onPostExecute(String file_url) {
+        protected void onPostExecute(Beacon beacon) {
+            TextView subject = (TextView) findViewById(R.id.viewSubjecttextView);
+            TextView desc = (TextView) findViewById(R.id.viewDesctextView);
+            subject.setText(beacon.getSubject());
+            desc.setText(beacon.getDescription());
             dismissDialog(progress_bar_type);
 
         }
     }
-
 
 }

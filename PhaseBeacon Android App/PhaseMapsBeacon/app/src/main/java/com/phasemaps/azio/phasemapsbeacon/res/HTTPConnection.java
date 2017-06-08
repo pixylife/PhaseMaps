@@ -5,7 +5,7 @@ package com.phasemaps.azio.phasemapsbeacon.res;
  */
 
 public class HTTPConnection {
-    public String getURL(){
+    public String getURL() {
         return "http://34.210.241.179:8080/PhaseMapsWebServiceV0.4/webresources/";
     }
 }

@@ -28,7 +28,7 @@
             tools:ignore="ContentDescription" />
 
         <EditText
-            android:id="@+id/editText4"
+            android:id="@+id/txtLogInEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.07"
@@ -38,7 +38,7 @@
             tools:ignore="LabelFor" />
 
         <EditText
-            android:id="@+id/editText5"
+            android:id="@+id/txtLogInPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.04"
@@ -60,8 +60,7 @@
             android:layout_gravity="center_vertical|center_horizontal"
             android:text="@string/action_sign_in_short"
             android:layout_weight="0.04"
-            android:onClick="signIn"
-            />
+            android:onClick="signIn" />
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
